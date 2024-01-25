@@ -1,0 +1,27 @@
+[GENERATED OBJECT FILE]
+b__carrecrenele.o
+[PROJECT FILES]
+H:\M1102\TP3\TP3b\CARRECRENELE\genererdessin.gpr
+20191002140100
+C:\Program Files (x86)\GNAT\2016\lib\gnat\gtkada.gpr
+20190304150232
+[BOUND OBJECT FILES]
+H:\M1102\TP3\TP3b\CARRECRENELE\carrecrenele.o
+H:\M1102\TP3\TP3b\CARRECRENELE\traceur_callbacks.o
+H:\M1102\TP3\TP3b\CARRECRENELE\Traceur.o
+[GENERATED SOURCE FILES]
+b__carrecrenele.ads
+b__carrecrenele.adb
+b__carrecrenele.ali
+[RESULTING OPTIONS]
+-LH:\M1102\TP3\TP3b\CARRECRENELE\
+-LH:\M1102\TP3\TP3b\CARRECRENELE\
+-LC:\Program Files (x86)\GNAT\2016\lib\gtkada\gtkada.static\gtkada\
+-LC:/program files (x86)/gnat/2016/lib/gcc/i686-pc-mingw32/4.9.4/adalib/
+-static
+-static-libgcc
+-shared-libgcc
+-shared-libgcc
+-shared-libgcc
+C:/program files (x86)/gnat/2016/lib/gcc/i686-pc-mingw32/4.9.4/adalib/libgnat.a
+-Wl,--stack=0x2000000

@@ -1,0 +1,27 @@
+[GENERATED OBJECT FILE]
+b__trait.o
+[PROJECT FILES]
+H:\M1102\TP3\TP3a\traceurTrait\genererdessin.gpr
+20190923091844
+C:\Program Files (x86)\GNAT\2016\lib\gnat\gtkada.gpr
+20190304150232
+[BOUND OBJECT FILES]
+H:\M1102\TP3\TP3a\traceurTrait\trait.o
+H:\M1102\TP3\TP3a\traceurTrait\traceur_callbacks.o
+H:\M1102\TP3\TP3a\traceurTrait\Traceur.o
+[GENERATED SOURCE FILES]
+b__trait.ads
+b__trait.adb
+b__trait.ali
+[RESULTING OPTIONS]
+-LH:\M1102\TP3\TP3a\traceurTrait\
+-LH:\M1102\TP3\TP3a\traceurTrait\
+-LC:\Program Files (x86)\GNAT\2016\lib\gtkada\gtkada.static\gtkada\
+-LC:/program files (x86)/gnat/2016/lib/gcc/i686-pc-mingw32/4.9.4/adalib/
+-static
+-static-libgcc
+-shared-libgcc
+-shared-libgcc
+-shared-libgcc
+C:/program files (x86)/gnat/2016/lib/gcc/i686-pc-mingw32/4.9.4/adalib/libgnat.a
+-Wl,--stack=0x2000000

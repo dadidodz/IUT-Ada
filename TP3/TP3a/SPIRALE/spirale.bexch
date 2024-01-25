@@ -1,0 +1,27 @@
+[GENERATED OBJECT FILE]
+b__spirale.o
+[PROJECT FILES]
+H:\M1102\TP3\TP3a\SPIRALE\genererdessin.gpr
+20190923095122
+C:\Program Files (x86)\GNAT\2016\lib\gnat\gtkada.gpr
+20190304150232
+[BOUND OBJECT FILES]
+H:\M1102\TP3\TP3a\SPIRALE\spirale.o
+H:\M1102\TP3\TP3a\SPIRALE\traceur_callbacks.o
+H:\M1102\TP3\TP3a\SPIRALE\Traceur.o
+[GENERATED SOURCE FILES]
+b__spirale.ads
+b__spirale.adb
+b__spirale.ali
+[RESULTING OPTIONS]
+-LH:\M1102\TP3\TP3a\SPIRALE\
+-LH:\M1102\TP3\TP3a\SPIRALE\
+-LC:\Program Files (x86)\GNAT\2016\lib\gtkada\gtkada.static\gtkada\
+-LC:/program files (x86)/gnat/2016/lib/gcc/i686-pc-mingw32/4.9.4/adalib/
+-static
+-static-libgcc
+-shared-libgcc
+-shared-libgcc
+-shared-libgcc
+C:/program files (x86)/gnat/2016/lib/gcc/i686-pc-mingw32/4.9.4/adalib/libgnat.a
+-Wl,--stack=0x2000000

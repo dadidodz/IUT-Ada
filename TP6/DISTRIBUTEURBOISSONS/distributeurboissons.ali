@@ -1,0 +1,94 @@
+V "GNAT Lib v2016"
+M P W=b
+A -g
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV SPARK_05
+
+U distributeurboissons%b  distributeurboissons.adb  9c24459a NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W distributeurutilities%s  distributeurutilities.adb  distributeurutilities.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-flteio.ads		20160516092928 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20160516092932 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20160516092926 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20160516092928 bb51c45a ada.numerics%s
+D a-nudira.ads		20160516092928 71e55def ada.numerics.discrete_random%s
+D a-stream.ads		20160516092928 119b8fb3 ada.streams%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
+D a-tiflio.ads		20160516092926 56fbda09 ada.text_io.float_io%s
+D a-tiinio.ads		20160516092928 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20160516092930 f9eb8f06 ada.unchecked_conversion%s
+D distributeurboissons.adb  20191023143148 6b48fa57 distributeurboissons%b
+D distributeurutilities.ads  20191014100244 d8c0841d distributeurutilities%s
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
+D system.ads		20160516092930 2da59038 system%s
+D s-crtl.ads		20160516092926 0ebbdb71 system.crtl%s
+D s-exctab.ads		20160516092930 54135002 system.exception_table%s
+D s-ficobl.ads		20160516092932 078245e4 system.file_control_block%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-rannum.ads		20160516092928 99ade2f2 system.random_numbers%s
+D s-soflin.ads		20160516092928 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092930 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20160516092930 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 14|2r6 2r31 3r6 3r31 4r6 4r31
+X 3 a-flteio.ads
+20K13*Float_Text_IO[11|46] 14|4w10 4r35
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[12|46] 14|3w10 3r35
+X 10 a-textio.ads
+49K13*Text_IO 471e16 14|2w10 2r35
+73I12*Field{integer}
+166U14*New_Line 14|72s17 74s48 76s36 78s28 80s28
+169U14*Skip_Line 14|70s25
+242U14*Put 14|35s17 39s17 43s17 47s17 59s25 73s17 75s17 77s17 79s17 81s17
+263U14*Put_Line 14|11s17 12s17 13s17 14s17 15s17 16s17 17s17 34s17 38s17
+. 42s17 46s17 105s9 110s17 115s9
+X 11 a-tiflio.ads
+57U14*Get 14|60s25[3|20]
+68U14*Put 14|74s17[3|20] 76s17[3|20] 114s9[3|20]
+72i7 Exp{10|73I12} 14|74r39[3|20] 76r27[3|20] 114r19[3|20]
+X 12 a-tiinio.ads
+56U14*Get 14|106s9[4|18] 111s17[4|18]
+66U14*Put 14|78s17[4|18] 80s17[4|18] 82s17[4|18]
+X 14 distributeurboissons.adb
+6U11*distributeurBoissons 6b11 119l5 119t25
+9U19 affichageMenu 9b19 18l13 18t26 104s9 109s17
+23V18 affichagePrix{float} 23b18 23>33 50l13 50t26 113s16
+23i33 choix{integer} 33r12 37r15 41r15 113r31
+24f17 prix1{float} 29m9 36r24
+25f17 prix2{float} 30m9 40r24 48r24
+26f17 prix3{float} 31m9 44r24
+52U19 lireMontant 52b19 52=32 52=54 52=76 52=97 52<117 83l13 83t24 116s9
+52f32 prixb{float} 58r23 76r21
+52i54 p20b{integer} 67m33 67r41 78r21
+52i76 p10b{integer} 65m33 65r41 80r21
+52i97 p5b{integer} 63m33 63r40 82r21
+52f117 montantintroduitb{float} 55m17 58r32 69m25 69r46 74r21
+53f17 montant{float} 60m29 62r28 64r31 66r31 69r66
+86i9 p20a{integer} 97m33 99m9 116m28 116r28
+87i9 p10a{integer} 97m39 100m9 116m33 116r33
+88i9 p5a{integer} 97m45 101m9 116m38 116r38
+89i9 selection{integer} 106m14 108r15 108r33 111m22 113r40
+90f9 prixa{float} 113m9 114r13 116m22 116r22
+91f9 montantintroduita{float} 102m9 116m43
+X 15 distributeurutilities.ads
+5K9*distributeurUtilities 14|1w6 1r34 15|22e26
+18U14*initialiseDistributeur 14|97s9
+
